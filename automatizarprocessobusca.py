@@ -88,7 +88,7 @@ def realizar_automacao():
 	driver.quit()
 
 # Agendar a execução diária às 06h00
-schedule.every().day.at("14:20").do(realizar_automacao)
+schedule.every().day.at("06:00").do(realizar_automacao)
 
 while True:
     schedule.run_pending()
