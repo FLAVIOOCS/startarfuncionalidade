@@ -9,7 +9,7 @@ Automação com python
 6 - Selecionar a opção 'xxxxxxx'
 7 - Informar a data anterior ao dia atual, no campo 'xxxxxxx', com dia, mês e ano xx/xx/xxxx
 8 - Selecionar botão 'Buscar manifestações'
-	a) O processo de ser realizado todos os dias, uma vez ao dia, às 05h00.
+	a) O processo deve ser realizado todos os dias, uma vez ao dia, às 05h00.
 '''
 
 from selenium import webdriver
